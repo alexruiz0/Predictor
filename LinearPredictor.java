@@ -1,5 +1,5 @@
 public class LinearPredictor extends Predictor{
-    double[] weights;
+    private double[] weights;
 
     public LinearPredictor(double[] w){
         this.weights = w;
