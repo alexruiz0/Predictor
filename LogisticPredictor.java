@@ -13,7 +13,7 @@ public class LogisticPredictor extends Predictor{
             sum += a[i]*this.weights[i];
         }
         
-        double phi = 1/(1+Math.exp(sum));
+        double phi = 1/(1+Math.exp(-sum));
         return phi;
     }
 }
